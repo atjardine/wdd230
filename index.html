@@ -13,7 +13,14 @@
     </header>
     <nav></nav>
     <main></main>
-    <footer></footer>
+    <footer>
+        &copy; 2022 | The Mountain Spoke | All Rights Reserved | Today's Date: <span id="currentdate"></span></span>
+    </footer>
+    <script>
+        // toLocaleDateString
+        const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+        document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
+    </script>
     <script src=""></script>
 </body>
 </html>
