@@ -2,6 +2,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     grid-template-columns: 160px auto;
+    border-bottom: 10px double;
 }
 
 header, nav, main, footer {
@@ -24,5 +25,4 @@ p img {
 }
 header {
     padding: 1rem;
-    border-bottom: 10px double;
 }
