@@ -1,3 +1,7 @@
-const year = document.querySelector('#year').textContent = year;
-const lastmod = document.querySelector('#lastmod')
+//year with Java
+const year = d.getFullYear();
+document.querySelector('#year').textContent = year;
+
+//last updated date
+const lastmod = document.querySelector('#lastmod');
 lastmod.textContent = document.lastModified;
